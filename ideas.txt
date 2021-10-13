@@ -10,3 +10,5 @@ Bad:
  * removes paywall notification
 <div class="css-gx5sib"
  * removes block gradient
+
+ 
