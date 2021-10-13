@@ -1,0 +1,12 @@
+Good:
+
+find: data-test="live-blog-post"
+  * start of article body
+
+
+
+Bad:
+<div id="gateway-content" 
+ * removes paywall notification
+<div class="css-gx5sib"
+ * removes block gradient
