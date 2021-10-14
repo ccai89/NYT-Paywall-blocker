@@ -6,6 +6,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.nytimes.com/*"],
+      "run_at": "document_start",
       "js": ["content.js"]
     }
   ]
