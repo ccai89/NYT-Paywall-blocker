@@ -5,7 +5,8 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["*://*.nytimes.com/*"]
+      "matches": ["*://*.nytimes.com/*"],
+      "js": ["content.js"]
     }
   ]
 }
