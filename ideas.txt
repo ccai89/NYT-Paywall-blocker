@@ -1,14 +1,13 @@
-Good:
+strategy:
 
-find: data-test="live-blog-post"
-  * start of article body
+only works on nytimes.com (case insensitive)
+
+let site fully load
+
+run javascript that searches document.getblah by id 
+  document.get blah by class
 
 
-
-Bad:
-<div id="gateway-content" 
- * removes paywall notification
-<div class="css-gx5sib"
- * removes block gradient
-
- 
+deleting id="gateway-content" 
+deleting class="css-gx5sib"
+change div class = css-mcm29f position:fixed -> position: relative
