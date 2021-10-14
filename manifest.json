@@ -2,10 +2,10 @@
   "name": "Paywall killer",
   "description": "Skip paywall",
   "version": "0.1",
-  "manifest_version": 2
+  "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["nytimes.com"]
+      "matches": ["*://*.nytimes.com/*"]
     }
   ]
 }
