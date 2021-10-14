@@ -1,7 +1,7 @@
 {
   "name": "NY Times Paywall Destroyer",
   "description": "Skip paywall by Alex B and Chang C",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -9,5 +9,17 @@
       "run_at": "document_start",
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons" : {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
 }
