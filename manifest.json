@@ -1,7 +1,7 @@
 {
-  "name": "Paywall killer",
-  "description": "Skip paywall",
-  "version": "0.1",
+  "name": "NY Times Paywall Destroyer",
+  "description": "Skip paywall by Alex B and Chang C",
+  "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [
     {
